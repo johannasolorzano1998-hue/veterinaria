@@ -48,3 +48,5 @@ coverage/
 *.log
 *.zip
 !package-lock.json
+.env.*
+*.key
