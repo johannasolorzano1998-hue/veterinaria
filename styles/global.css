@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-100;;
+  }
+}
+
+.tab-button {
+  background-color: rgb(0, 0, 0);
+  width: auto;
+  height:auto;
+  padding: 10px;
+  color: #fff;
+  margin-left: 6px;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+  border-radius: 80ch;
+  font-size: 13px;
+  margin-block-start: 10px;
+}
+.tab-button:hover {
+  background-color: #ccc!important;
+}
+.tab-button.active {
+  background-color: #e04337!important;
+}
+
+.tab-contents {
+  padding: 0.01em 16px;
+}
